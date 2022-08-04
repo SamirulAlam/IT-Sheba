@@ -19,7 +19,7 @@
     font-size: 27px;
     line-height: 35px;
 
-color: #00C2FF;
+    color: #00C2FF;
 }
 
 .menu__container{
@@ -28,6 +28,22 @@ color: #00C2FF;
     display: flex;
     justify-content: space-around;
 }
+
+.search__container{
+    width: 237px;
+    height: 27.58px;
+    background: #99DBEF;
+    border-radius: 33px;
+}
+
+.search__container input{
+    margin: 8px;
+    outline: none;
+    border:transparent;
+    background:#99DBEF;
+
+}
+
 
 .section__main{
     height: 80vh;
@@ -52,7 +68,6 @@ color: #00C2FF;
     font-weight: 400;
     font-size: 75px;
     line-height: 128px;
-/* identical to box height */
 
 
     color: #00C2FF;
@@ -60,39 +75,35 @@ color: #00C2FF;
 
 .button__container >button:first-child {
     width: 150px;
-height: 37px;
-border: 3px solid #00C2FF;
-background: #00C2FF;
-border-radius: 36px;
+    height: 37px;
+    border: 3px solid #00C2FF;
+    background: #00C2FF;
+    border-radius: 36px;
 
-font-family: 'Monda';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-/* identical to box height */
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
 
-
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
 
 .button__container >button:last-child{
     box-sizing: border-box;
 
-width: 150px;
-height: 37px;
+    width: 150px;
+    height: 37px;
 
-border: 3px solid #00C2FF;
-border-radius: 36px;
+    border: 3px solid #00C2FF;
+    border-radius: 36px;
 
-font-family: 'Monda';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-/* identical to box height */
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
 
-
-color: #00C2FF;
+    color: #00C2FF;
 }
 
 .section__ellipse{
